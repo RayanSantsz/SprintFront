@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+/*resete pag*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*=========logo ford===================*/
+.logo_ford {
+    width: 7%;
+    height: 7%;
+    padding: 2% 2% 0%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*====cabecalho - headeer(logo/links)====*/
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 3.5% 12% 0%;
+}
+
+.cabecalho_link{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #00043C;
+}
+
+ .linha_cabecalho{
+     margin: 2% 0% 1%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .rodape {
+    background-color: #00043C;
+    color: white;
+}
+
+.rodape_texto{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.rodape_img {
+    display: flex;
+    gap: 40px;
+}
+
+.links_rodape{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 20px;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.cop_rodape p {
+    margin-right: 190px;
+}
+
+.img_rodape {
+    margin-right: 50px;
+}
