@@ -20,19 +20,31 @@
     </header>
 
     <main class="apresentacao">
-        <div class="img_apresentacao">
-            <img src="/assets/XL Cabine.jpg" alt="xl-cabine">
+        <div>
+            <img class="img_apresentacao" src="/assets/XL Cabine.jpg" alt="xl-cabine">
         </div>
 
         <div class="dados_apresentacao">
             <h3>Sobre você</h3>
-            <p class="paragrafo_apresentacao">NOME *</p>
-            <p class="paragrafo_apresentacao">E-MAIL *</p>
-            <p class="paragrafo_apresentacao">CPF *</p>
-            <p class="paragrafo_apresentacao">SOBRENOME*</p>
-            <p class="paragrafo_apresentacao">TELEFONE *</p>
-            <p class="paragrafo_apresentacao"></p>
+            <input type="text" placeholder="Nome" name="nome" class="paragrafo_apresentacao"/>
+            <input type="email" placeholder="Email" name="email" class="paragrafo_apresentacao"/>
+            <input type="text" name="CPF" placeholder="cpf" maxlength="14" class="paragrafo_apresentacao">
+            <input type="text" placeholder="Sobrenome" name="sobrenome" class="paragrafo_apresentacao"/>
+            <input type="tel" placeholder="Celular" name="celular" class="paragrafo_apresentacao"/>
+            
+            <div>
+                <select class="select" name="contato_preferido" id="contato_preferido">
+                    <option value="" disabled selected>Como deseja ser contatado</option>
+                    <option value="Elogio">Elogio</option>
+                    <option value="Reclamação">Reclamação</option>
+                    <option value="Solicitação">Solicitação</option>
+                </select>
+
+            </div>
+
         </div>
+
+        
 
     </main>
 
