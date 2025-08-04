@@ -40,12 +40,33 @@
 
 
 
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 255px;
+}
+
+.dados_apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.paragrafo_apresentacao {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
 
 
-
-
-
-
+.select {
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 
 
